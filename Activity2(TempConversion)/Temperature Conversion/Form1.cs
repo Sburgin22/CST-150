@@ -19,31 +19,33 @@ namespace Temperature_Conversion
 
         private void convertToCButton_Click(object sender, EventArgs e)
         {
+            //uses try / catch incase improper data is entered
             try
             {
-                var far = double.Parse(farenheitTextBox.Text);
-                var cel = celsiusTextBox.Text = "";
-                double total = (far - 32) * 5 / 9;
-                outputLabel.Text = (far + " degrees Farenheit is " + total.ToString("n1") + " degrees Celsus");
+                var far = double.Parse(farenheitTextBox.Text);//creates farenheit variable as a double
+                var cel = celsiusTextBox.Text = ""; //makes the celsius textbox blank
+                double total = (far - 32) * 5 / 9; //formula to convert farenheit to celsius
+                outputLabel.Text = (far + " degrees Farenheit is " + total.ToString("n1") + " degrees Celsus"); //displays message with results of conversion
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Please enter a valid value for 'Farenheit'", ex.Message);
+                MessageBox.Show("Please enter a valid value for 'Farenheit'", ex.Message); // error message if a number is not entered
             }
         }
 
         private void convertToFButton_Click(object sender, EventArgs e)
         {
+            //uses try / catch incase of invalid input
             try
             {
-                var cel = double.Parse(celsiusTextBox.Text);
-                var far = farenheitTextBox.Text = "";
-                double total = (cel * 9 / 5) + 32;
-                outputLabel.Text = (cel + " degrees Celsius is " + total.ToString("n1") + " degrees Farenheit");
+                var cel = double.Parse(celsiusTextBox.Text); // creates celsius variable as a double
+                var far = farenheitTextBox.Text = ""; //makes farenheit textbox blank
+                double total = (cel * 9 / 5) + 32; //formula to convert celsius to farenheit
+                outputLabel.Text = (cel + " degrees Celsius is " + total.ToString("n1") + " degrees Farenheit"); //outputs message with results of conversion
             }
             catch
             {
-                MessageBox.Show("Please enter a valid value for 'Celsius'");
+                MessageBox.Show("Please enter a valid value for 'Celsius'"); //error message if a number is not entered
             }
         }
 
