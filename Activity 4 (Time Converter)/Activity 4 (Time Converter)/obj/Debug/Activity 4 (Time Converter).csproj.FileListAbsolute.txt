@@ -1,0 +1,11 @@
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity 4 (Time Converter)\Activity 4 (Time Converter)\bin\Debug\Activity 4 (Time Converter).exe.config
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity 4 (Time Converter)\Activity 4 (Time Converter)\bin\Debug\Activity 4 (Time Converter).exe
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity 4 (Time Converter)\Activity 4 (Time Converter)\bin\Debug\Activity 4 (Time Converter).pdb
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity 4 (Time Converter)\Activity 4 (Time Converter)\obj\Debug\Activity 4 (Time Converter).csproj.AssemblyReference.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity 4 (Time Converter)\Activity 4 (Time Converter)\obj\Debug\Activity 4 (Time Converter).csproj.SuggestedBindingRedirects.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity 4 (Time Converter)\Activity 4 (Time Converter)\obj\Debug\Activity_4__Time_Converter_.TimeConverter.resources
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity 4 (Time Converter)\Activity 4 (Time Converter)\obj\Debug\Activity_4__Time_Converter_.Properties.Resources.resources
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity 4 (Time Converter)\Activity 4 (Time Converter)\obj\Debug\Activity 4 (Time Converter).csproj.GenerateResource.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity 4 (Time Converter)\Activity 4 (Time Converter)\obj\Debug\Activity 4 (Time Converter).csproj.CoreCompileInputs.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity 4 (Time Converter)\Activity 4 (Time Converter)\obj\Debug\Activity 4 (Time Converter).exe
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity 4 (Time Converter)\Activity 4 (Time Converter)\obj\Debug\Activity 4 (Time Converter).pdb
