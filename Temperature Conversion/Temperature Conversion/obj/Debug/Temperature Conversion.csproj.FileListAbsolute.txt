@@ -1,0 +1,11 @@
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Temperature Conversion\Temperature Conversion\bin\Debug\Temperature Conversion.exe.config
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Temperature Conversion\Temperature Conversion\bin\Debug\Temperature Conversion.exe
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Temperature Conversion\Temperature Conversion\bin\Debug\Temperature Conversion.pdb
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Temperature Conversion\Temperature Conversion\obj\Debug\Temperature Conversion.csproj.AssemblyReference.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Temperature Conversion\Temperature Conversion\obj\Debug\Temperature Conversion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Temperature Conversion\Temperature Conversion\obj\Debug\Temperature_Conversion.TemptConvers.resources
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Temperature Conversion\Temperature Conversion\obj\Debug\Temperature_Conversion.Properties.Resources.resources
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Temperature Conversion\Temperature Conversion\obj\Debug\Temperature Conversion.csproj.GenerateResource.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Temperature Conversion\Temperature Conversion\obj\Debug\Temperature Conversion.csproj.CoreCompileInputs.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Temperature Conversion\Temperature Conversion\obj\Debug\Temperature Conversion.exe
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Temperature Conversion\Temperature Conversion\obj\Debug\Temperature Conversion.pdb
