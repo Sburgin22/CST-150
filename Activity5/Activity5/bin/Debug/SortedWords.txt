@@ -1,0 +1,23 @@
+List of words in lower case:
+adamantine
+background
+bear
+captivate
+conspiracy
+fantasy
+persuade
+revolution
+swordbreaker
+unrest
+
+First word in alphabetical order:
+adamantine
+
+Last word in alphabetical order:
+unrest
+
+Longest word:
+swordbreaker
+
+Word with most vowels:
+
