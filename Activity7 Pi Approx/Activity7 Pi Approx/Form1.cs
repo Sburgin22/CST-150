@@ -24,6 +24,7 @@ namespace Activity7_Pi_Approx
 
             if (int.TryParse(numTermsTextBox.Text, out terms))
             { 
+            //used code from https://www.youtube.com/watch?v=uH4trBNn540&t=362s
                 for (int i = 0; i < terms; i ++)
                 {
                     double den = i * 2 + 3;
