@@ -1,0 +1,11 @@
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity7 Pi Approx\Activity7 Pi Approx\bin\Debug\Activity7 Pi Approx.exe.config
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity7 Pi Approx\Activity7 Pi Approx\bin\Debug\Activity7 Pi Approx.exe
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity7 Pi Approx\Activity7 Pi Approx\bin\Debug\Activity7 Pi Approx.pdb
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity7 Pi Approx\Activity7 Pi Approx\obj\Debug\Activity7 Pi Approx.csproj.AssemblyReference.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity7 Pi Approx\Activity7 Pi Approx\obj\Debug\Activity7 Pi Approx.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity7 Pi Approx\Activity7 Pi Approx\obj\Debug\Activity7_Pi_Approx.approxPi.resources
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity7 Pi Approx\Activity7 Pi Approx\obj\Debug\Activity7_Pi_Approx.Properties.Resources.resources
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity7 Pi Approx\Activity7 Pi Approx\obj\Debug\Activity7 Pi Approx.csproj.GenerateResource.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity7 Pi Approx\Activity7 Pi Approx\obj\Debug\Activity7 Pi Approx.csproj.CoreCompileInputs.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity7 Pi Approx\Activity7 Pi Approx\obj\Debug\Activity7 Pi Approx.exe
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity7 Pi Approx\Activity7 Pi Approx\obj\Debug\Activity7 Pi Approx.pdb
