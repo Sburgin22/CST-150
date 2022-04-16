@@ -1,2 +1,2 @@
-# CST-150
-Repository to hold projects for CST-150
+# Inventory Management System
+Uses classes and a series of controls to make a user friendly Inventory Management System.
