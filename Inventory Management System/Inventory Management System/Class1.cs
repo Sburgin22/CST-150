@@ -8,13 +8,13 @@ namespace Inventory_Management_System
 {
     class InventoryItem
     {
-        String name;
-        String description;
-        string category;
-        int price;
-        int quantity;
-        int num;
-        int orderNum;
+       public string name;
+       public string description;
+       public string category;
+       public double price;
+       public int quantity;
+       public int num;
+       public int orderNum;
 
         //empty constructor
         public InventoryItem()

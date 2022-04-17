@@ -33,11 +33,11 @@
             this.descripLabel = new System.Windows.Forms.Label();
             this.quantityLabel = new System.Windows.Forms.Label();
             this.priceLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.categoryTextBox = new System.Windows.Forms.TextBox();
+            this.nameTextBox = new System.Windows.Forms.TextBox();
+            this.descriptionTextBox = new System.Windows.Forms.TextBox();
+            this.quantityTextBox = new System.Windows.Forms.TextBox();
+            this.priceTextBox = new System.Windows.Forms.TextBox();
             this.addButton = new System.Windows.Forms.Button();
             this.cancelButton = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -89,40 +89,40 @@
             this.priceLabel.TabIndex = 4;
             this.priceLabel.Text = "Price:";
             // 
-            // textBox1
+            // categoryTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(84, 17);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(211, 20);
-            this.textBox1.TabIndex = 5;
+            this.categoryTextBox.Location = new System.Drawing.Point(84, 17);
+            this.categoryTextBox.Name = "categoryTextBox";
+            this.categoryTextBox.Size = new System.Drawing.Size(211, 20);
+            this.categoryTextBox.TabIndex = 5;
             // 
-            // textBox2
+            // nameTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(84, 75);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(211, 20);
-            this.textBox2.TabIndex = 6;
+            this.nameTextBox.Location = new System.Drawing.Point(84, 75);
+            this.nameTextBox.Name = "nameTextBox";
+            this.nameTextBox.Size = new System.Drawing.Size(211, 20);
+            this.nameTextBox.TabIndex = 6;
             // 
-            // textBox3
+            // descriptionTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(84, 123);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(211, 20);
-            this.textBox3.TabIndex = 7;
+            this.descriptionTextBox.Location = new System.Drawing.Point(84, 123);
+            this.descriptionTextBox.Name = "descriptionTextBox";
+            this.descriptionTextBox.Size = new System.Drawing.Size(211, 20);
+            this.descriptionTextBox.TabIndex = 7;
             // 
-            // textBox4
+            // quantityTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(84, 180);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(211, 20);
-            this.textBox4.TabIndex = 8;
+            this.quantityTextBox.Location = new System.Drawing.Point(84, 180);
+            this.quantityTextBox.Name = "quantityTextBox";
+            this.quantityTextBox.Size = new System.Drawing.Size(211, 20);
+            this.quantityTextBox.TabIndex = 8;
             // 
-            // textBox5
+            // priceTextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(84, 234);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(211, 20);
-            this.textBox5.TabIndex = 9;
+            this.priceTextBox.Location = new System.Drawing.Point(84, 234);
+            this.priceTextBox.Name = "priceTextBox";
+            this.priceTextBox.Size = new System.Drawing.Size(211, 20);
+            this.priceTextBox.TabIndex = 9;
             // 
             // addButton
             // 
@@ -147,15 +147,15 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.categoryLabel);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.categoryTextBox);
             this.groupBox1.Controls.Add(this.nameLabel);
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.priceTextBox);
+            this.groupBox1.Controls.Add(this.nameTextBox);
             this.groupBox1.Controls.Add(this.priceLabel);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.quantityTextBox);
             this.groupBox1.Controls.Add(this.quantityLabel);
             this.groupBox1.Controls.Add(this.descripLabel);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.descriptionTextBox);
             this.groupBox1.Location = new System.Drawing.Point(115, 80);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(320, 299);
@@ -185,11 +185,11 @@
         private System.Windows.Forms.Label descripLabel;
         private System.Windows.Forms.Label quantityLabel;
         private System.Windows.Forms.Label priceLabel;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox categoryTextBox;
+        private System.Windows.Forms.TextBox nameTextBox;
+        private System.Windows.Forms.TextBox descriptionTextBox;
+        private System.Windows.Forms.TextBox quantityTextBox;
+        private System.Windows.Forms.TextBox priceTextBox;
         private System.Windows.Forms.Button addButton;
         private System.Windows.Forms.Button cancelButton;
         private System.Windows.Forms.GroupBox groupBox1;

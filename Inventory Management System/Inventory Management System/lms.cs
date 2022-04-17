@@ -16,6 +16,8 @@ namespace Inventory_Management_System
         {
             InitializeComponent();
         }
+        
+        InventoryItem item;
 
         private void addProductButton_Click(object sender, EventArgs e)
         {
@@ -25,7 +27,16 @@ namespace Inventory_Management_System
 
         private void removeProductButton_Click(object sender, EventArgs e)
         {
+            item.name = "";
+            item.description = "";
+            item.price.ToString("");
+            item.quantity.ToString("");
+            item.num -= 1;
+            item.category = "";
+            item.orderNum.ToString("");
 
+
+            MessageBox.Show("item removed from inventory.");
         }
 
         private void editProductButton_Click(object sender, EventArgs e)

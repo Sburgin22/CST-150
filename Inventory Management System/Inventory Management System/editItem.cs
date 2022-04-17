@@ -17,9 +17,19 @@ namespace Inventory_Management_System
             InitializeComponent();
         }
 
+        InventoryItem item;
+
         private void editButton_Click(object sender, EventArgs e)
         {
+            //changes item information for selected item
+            item.name = nameTextBox.Text;
+            item.description = descriptionTextBox.Text;
+            item.category = categoryTextBox.Text;
+            item.price = double.Parse(priceTextBox.Text);
+            item.quantity = int.Parse(quantityTextBox.Text);
 
+            //displays message
+            MessageBox.Show(item.name + " edited");
         }
 
         private void cancelButton_Click(object sender, EventArgs e)

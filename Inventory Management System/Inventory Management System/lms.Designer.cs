@@ -28,14 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.itemNumber = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.itemName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.description = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.quantity = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.itemType = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.onOrder = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.itemPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.components = new System.ComponentModel.Container();
             this.addProductButton = new System.Windows.Forms.Button();
             this.removeProductButton = new System.Windows.Forms.Button();
             this.editProductButton = new System.Windows.Forms.Button();
@@ -44,59 +37,23 @@
             this.seachButton = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.imsLabel = new System.Windows.Forms.Label();
+            this.database2DataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.tableAdapterManager1 = new Inventory_Management_System.Database2DataSetTableAdapters.TableAdapterManager();
+            this.database2DataSet2 = new Inventory_Management_System.Database2DataSet();
+            this.imsTableAdapter1 = new Inventory_Management_System.Database2DataSetTableAdapters.imsTableAdapter();
+            this.tableAdapterManager2 = new Inventory_Management_System.Database2DataSetTableAdapters.TableAdapterManager();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.itemNum = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itemName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itemDescrip = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itemCat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itemQuant = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.onOrder = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.itemPrice = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.database2DataSetBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database2DataSet2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.itemNumber,
-            this.itemName,
-            this.description,
-            this.quantity,
-            this.itemType,
-            this.onOrder,
-            this.itemPrice});
-            this.dataGridView1.Location = new System.Drawing.Point(135, 136);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(714, 335);
-            this.dataGridView1.TabIndex = 0;
-            // 
-            // itemNumber
-            // 
-            this.itemNumber.HeaderText = "Product Number";
-            this.itemNumber.Name = "itemNumber";
-            // 
-            // itemName
-            // 
-            this.itemName.HeaderText = "Name";
-            this.itemName.Name = "itemName";
-            // 
-            // description
-            // 
-            this.description.HeaderText = "Description";
-            this.description.Name = "description";
-            // 
-            // quantity
-            // 
-            this.quantity.HeaderText = "Quantity";
-            this.quantity.Name = "quantity";
-            // 
-            // itemType
-            // 
-            this.itemType.HeaderText = "Category";
-            this.itemType.Name = "itemType";
-            // 
-            // onOrder
-            // 
-            this.onOrder.HeaderText = "On Order";
-            this.onOrder.Name = "onOrder";
-            // 
-            // itemPrice
-            // 
-            this.itemPrice.HeaderText = "Price";
-            this.itemPrice.Name = "itemPrice";
             // 
             // addProductButton
             // 
@@ -175,11 +132,88 @@
             this.imsLabel.TabIndex = 8;
             this.imsLabel.Text = "INVENTORY MANAGEMENT SYSTEM";
             // 
+            // tableAdapterManager1
+            // 
+            this.tableAdapterManager1.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager1.Connection = null;
+            this.tableAdapterManager1.imsTableAdapter = null;
+            this.tableAdapterManager1.UpdateOrder = Inventory_Management_System.Database2DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // database2DataSet2
+            // 
+            this.database2DataSet2.DataSetName = "Database2DataSet";
+            this.database2DataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // imsTableAdapter1
+            // 
+            this.imsTableAdapter1.ClearBeforeFill = true;
+            // 
+            // tableAdapterManager2
+            // 
+            this.tableAdapterManager2.BackupDataSetBeforeUpdate = false;
+            this.tableAdapterManager2.Connection = null;
+            this.tableAdapterManager2.imsTableAdapter = null;
+            this.tableAdapterManager2.UpdateOrder = Inventory_Management_System.Database2DataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AutoGenerateColumns = false;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.itemNum,
+            this.itemName,
+            this.itemDescrip,
+            this.itemCat,
+            this.itemQuant,
+            this.onOrder,
+            this.itemPrice});
+            this.dataGridView1.DataSource = this.database2DataSetBindingSource;
+            this.dataGridView1.Location = new System.Drawing.Point(105, 181);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(744, 303);
+            this.dataGridView1.TabIndex = 9;
+            // 
+            // itemNum
+            // 
+            this.itemNum.HeaderText = "Product Number";
+            this.itemNum.Name = "itemNum";
+            // 
+            // itemName
+            // 
+            this.itemName.HeaderText = "Product Name";
+            this.itemName.Name = "itemName";
+            // 
+            // itemDescrip
+            // 
+            this.itemDescrip.HeaderText = "Description";
+            this.itemDescrip.Name = "itemDescrip";
+            // 
+            // itemCat
+            // 
+            this.itemCat.HeaderText = "Category";
+            this.itemCat.Name = "itemCat";
+            // 
+            // itemQuant
+            // 
+            this.itemQuant.HeaderText = "Quantity";
+            this.itemQuant.Name = "itemQuant";
+            // 
+            // onOrder
+            // 
+            this.onOrder.HeaderText = "On Order";
+            this.onOrder.Name = "onOrder";
+            // 
+            // itemPrice
+            // 
+            this.itemPrice.HeaderText = "Price";
+            this.itemPrice.Name = "itemPrice";
+            // 
             // IMS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1020, 629);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.imsLabel);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.seachButton);
@@ -188,9 +222,10 @@
             this.Controls.Add(this.editProductButton);
             this.Controls.Add(this.removeProductButton);
             this.Controls.Add(this.addProductButton);
-            this.Controls.Add(this.dataGridView1);
             this.Name = "IMS";
             this.Text = "Inventory Management System";
+            ((System.ComponentModel.ISupportInitialize)(this.database2DataSetBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.database2DataSet2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -198,15 +233,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn itemNumber;
-        private System.Windows.Forms.DataGridViewTextBoxColumn itemName;
-        private System.Windows.Forms.DataGridViewTextBoxColumn description;
-        private System.Windows.Forms.DataGridViewTextBoxColumn quantity;
-        private System.Windows.Forms.DataGridViewTextBoxColumn itemType;
-        private System.Windows.Forms.DataGridViewTextBoxColumn onOrder;
-        private System.Windows.Forms.DataGridViewTextBoxColumn itemPrice;
         private System.Windows.Forms.Button addProductButton;
         private System.Windows.Forms.Button removeProductButton;
         private System.Windows.Forms.Button editProductButton;
@@ -215,6 +241,21 @@
         private System.Windows.Forms.Button seachButton;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label imsLabel;
+        private Database2DataSet database2DataSet;
+        private System.Windows.Forms.BindingSource database2DataSetBindingSource;
+        private Database2DataSetTableAdapters.TableAdapterManager tableAdapterManager1;
+        private Database2DataSet database2DataSet1;
+        private Database2DataSet database2DataSet2;
+        private Database2DataSetTableAdapters.imsTableAdapter imsTableAdapter1;
+        private Database2DataSetTableAdapters.TableAdapterManager tableAdapterManager2;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn itemNum;
+        private System.Windows.Forms.DataGridViewTextBoxColumn itemName;
+        private System.Windows.Forms.DataGridViewTextBoxColumn itemDescrip;
+        private System.Windows.Forms.DataGridViewTextBoxColumn itemCat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn itemQuant;
+        private System.Windows.Forms.DataGridViewTextBoxColumn onOrder;
+        private System.Windows.Forms.DataGridViewTextBoxColumn itemPrice;
     }
 }
 
