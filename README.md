@@ -1,2 +1,3 @@
-# CST-150
-Repository to hold projects for CST-150
+# CST-150 Activity 11
+A dice rolling program that creates a dice class.
+Rolls two dice and displays how many attempts it took to get "snake eyes"
