@@ -1,2 +1,2 @@
-# CST-150
-Repository to hold projects for CST-150
+# CST-150 Activity 9 (Method Stubs)
+Program with 10 different method stubs that add, multiply or do other functions and display the results.
