@@ -1,2 +1,2 @@
-# CST-150
-Repository to hold projects for CST-150
+# CST-150 Activity 10
+Debugged program that should display the union of 2 sets.
