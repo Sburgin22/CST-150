@@ -1,2 +1,2 @@
-# CST-150
-Repository to hold projects for CST-150
+# CST-150 Activity
+Creates a Tic Tac Toe Game and displays the board, highlights winning row, columnm, or diagonal, and then displays winner in result label
