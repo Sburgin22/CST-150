@@ -42,7 +42,8 @@ namespace Activity13
             }
         }
 
-        //replaces 0 and 1 with X or O in our label 2d array
+        //this is creates a new 2d array with x and o values
+        //based on the location of 1 and 0 in our board array
         public void XO(int[,] board)
         {
             for( int row = 0; row < 3; row++)
@@ -62,6 +63,7 @@ namespace Activity13
         }
 
         //displays x or o to their designated label based on move chosen
+        //given their location in our move 2d array
         public void DisplayXO(string[,] move)
         {
             label1.Text = move[0,0].ToString();
