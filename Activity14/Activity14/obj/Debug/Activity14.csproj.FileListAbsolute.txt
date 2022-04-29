@@ -1,0 +1,11 @@
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity14\Activity14\obj\Debug\Activity14.csproj.AssemblyReference.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity14\Activity14\obj\Debug\Activity14.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity14\Activity14\obj\Debug\Activity14.Form1.resources
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity14\Activity14\obj\Debug\Activity14.Properties.Resources.resources
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity14\Activity14\obj\Debug\Activity14.csproj.GenerateResource.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity14\Activity14\obj\Debug\Activity14.csproj.CoreCompileInputs.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity14\Activity14\bin\Debug\Activity14.exe.config
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity14\Activity14\bin\Debug\Activity14.exe
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity14\Activity14\bin\Debug\Activity14.pdb
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity14\Activity14\obj\Debug\Activity14.exe
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity14\Activity14\obj\Debug\Activity14.pdb
