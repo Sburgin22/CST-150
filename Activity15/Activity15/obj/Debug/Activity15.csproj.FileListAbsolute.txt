@@ -1,0 +1,12 @@
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity15\Activity15\bin\Debug\Activity15.exe.config
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity15\Activity15\bin\Debug\Activity15.exe
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity15\Activity15\bin\Debug\Activity15.pdb
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity15\Activity15\obj\Debug\Activity15.csproj.AssemblyReference.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity15\Activity15\obj\Debug\Activity15.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity15\Activity15\obj\Debug\Activity15.LuckyNumberForm.resources
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity15\Activity15\obj\Debug\Activity15.Properties.Resources.resources
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity15\Activity15\obj\Debug\Activity15.csproj.GenerateResource.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity15\Activity15\obj\Debug\Activity15.csproj.CoreCompileInputs.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity15\Activity15\obj\Debug\Activity15.exe
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity15\Activity15\obj\Debug\Activity15.pdb
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Activity15\Activity15\obj\Debug\Activity15.ResultsForm.resources
