@@ -1,2 +1,2 @@
-# CST-150
-Repository to hold projects for CST-150
+# CST-150 Activity15
+Lucky Number app that collects birth year, day, and month to calculate your lucky number.
