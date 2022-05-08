@@ -1,0 +1,11 @@
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Milestone4\Milestone4\bin\Debug\Milestone4.exe.config
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Milestone4\Milestone4\bin\Debug\Milestone4.exe
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Milestone4\Milestone4\bin\Debug\Milestone4.pdb
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Milestone4\Milestone4\obj\Debug\Milestone4.csproj.AssemblyReference.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Milestone4\Milestone4\obj\Debug\Milestone4.csproj.SuggestedBindingRedirects.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Milestone4\Milestone4\obj\Debug\Milestone4.Form1.resources
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Milestone4\Milestone4\obj\Debug\Milestone4.Properties.Resources.resources
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Milestone4\Milestone4\obj\Debug\Milestone4.csproj.GenerateResource.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Milestone4\Milestone4\obj\Debug\Milestone4.csproj.CoreCompileInputs.cache
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Milestone4\Milestone4\obj\Debug\Milestone4.exe
+C:\Users\Sierra\OneDrive\GCU\Homework\CST-150\Milestone4\Milestone4\obj\Debug\Milestone4.pdb
